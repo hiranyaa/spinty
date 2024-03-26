@@ -15,6 +15,7 @@ import { GroupsComponent } from 'src/app/settings/groups/groups.component';
 import { AddCustomersFormComponent } from 'src/app/customers/add-customers-form/add-customers-form.component';
 import { AddUserFormComponent } from 'src/app/users/add-user-form/add-user-form.component';
 import { AddProjectFormComponent } from 'src/app/projects/add-project-form/add-project-form.component';
+import { ListOfTasksComponent } from 'src/app/tasks/list-of-tasks/list-of-tasks.component';
 
 @NgModule({
 
@@ -30,6 +31,7 @@ import { AddProjectFormComponent } from 'src/app/projects/add-project-form/add-p
     UsersComponent,
     ProjectsComponent,
     SprintsComponent,
+    ListOfTasksComponent,
     TimeCardsComponent,
     ReportsComponent,
     RolesComponent,
