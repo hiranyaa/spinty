@@ -1,0 +1,12 @@
+.navbar-custom {
+    padding: 0 16px;
+    background-color: var(--ct-bg-topbar);
+    -webkit-box-shadow: var(--ct-box-shadow);
+    box-shadow: var(--ct-box-shadow);
+    min-height: 70px;
+    position: fixed;
+    left: 315px;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}

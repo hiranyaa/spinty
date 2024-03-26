@@ -1,0 +1,23 @@
+.card {
+    border: none;
+    -webkit-box-shadow: var(--ct-card-box-shadow);
+    box-shadow: var(--ct-card-box-shadow);
+    margin-bottom: 24px;
+    --ct-card-border-color: #dee2e6;
+    --ct-card-box-shadow: var(--ct-box-shadow);
+    --ct-card-cap-bg: #fff;
+    --ct-card-bg: #fff;
+    width: 32rem;
+    font-size: 18px;
+    // align-items: center;
+}
+
+.form-control {
+    font-size: 18px;
+}
+
+.card-body p-4{
+//     justify-content: center;
+//     margin-left: 10rem;
+align-items: center;
+}

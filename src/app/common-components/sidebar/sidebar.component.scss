@@ -1,0 +1,208 @@
+.leftbar-user {
+  padding: 30px 20px;
+  text-align: center;
+  display: none;
+}
+
+.leftbar-user .leftbar-user-name {
+  font-weight: 700;
+  color: var(--ct-menu-item);
+  margin-right: 12px;
+  margin-top: 8px;
+  display: block;
+}
+
+.side-nav {
+  padding-right: 0;
+  list-style-type: none;
+}
+
+.side-nav ul {
+  list-style-type: none;
+}
+
+.side-nav .side-nav-link {
+  color: var(--ct-menu-item);
+  display: block;
+  padding: 10px 30px;
+  font-size: 1.4rem;
+  position: relative;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  list-style: none;
+}
+
+.side-nav .side-nav-link:hover,
+.side-nav .side-nav-link:focus,
+.side-nav .side-nav-link:active {
+  color: var(--ct-menu-item-hover);
+  text-decoration: none;
+}
+
+.side-nav .side-nav-link span {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.side-nav .side-nav-link i {
+  display: inline-block;
+  line-height: 3rem;
+  margin: 0 0 0 10px;
+  font-size: 1.4rem;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.side-nav .menu-arrow {
+  -webkit-transition: -webkit-transform 0.15s;
+  transition: -webkit-transform 0.15s;
+  transition: transform 0.15s;
+  transition: transform 0.15s, -webkit-transform 0.15s;
+  position: absolute;
+  left:170px;
+  top:23px;
+  display: inline-block;
+  font-family: "Material Design Icons";
+  text-rendering: auto;
+  line-height: 1.5rem;
+  font-size: 1.4rem;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.side-nav .menu-arrow:before {
+  content: "\f0142";
+}
+
+.side-nav .badge {
+  margin-top: 3px;
+}
+
+.side-nav .side-nav-item>a[aria-expanded=true]>span.menu-arrow {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.side-nav .side-nav-item.menuitem-active>a:not(.collapsed)>span.menu-arrow {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.side-nav .side-nav-title {
+  padding: 12px 30px;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+  cursor: default;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  color: var(--ct-menu-item);
+  font-weight: 700;
+}
+
+.side-nav .menuitem-active>a {
+  color: var(--ct-menu-item-active) !important;
+}
+
+*[dir=rtl] .side-nav .side-nav-item .menu-arrow:before {
+  content: "\f0141" !important;
+}
+
+.side-nav-second-level,
+.side-nav-third-level,
+.side-nav-forth-level {
+  padding-right: 0;
+}
+
+.side-nav-second-level li a,
+.side-nav-second-level li .side-nav-link,
+.side-nav-third-level li a,
+.side-nav-third-level li .side-nav-link,
+.side-nav-forth-level li a,
+.side-nav-forth-level li .side-nav-link {
+  padding: 8px 65px 8px 30px;
+  color: var(--ct-menu-item);
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-size: 0.89rem;
+}
+
+.side-nav-second-level li a:focus,
+.side-nav-second-level li a:hover,
+.side-nav-second-level li .side-nav-link:focus,
+.side-nav-second-level li .side-nav-link:hover,
+.side-nav-third-level li a:focus,
+.side-nav-third-level li a:hover,
+.side-nav-third-level li .side-nav-link:focus,
+.side-nav-third-level li .side-nav-link:hover,
+.side-nav-forth-level li a:focus,
+.side-nav-forth-level li a:hover,
+.side-nav-forth-level li .side-nav-link:focus,
+.side-nav-forth-level li .side-nav-link:hover {
+  color: var(--ct-menu-item-hover);
+}
+
+.side-nav-second-level li a .menu-arrow,
+.side-nav-second-level li .side-nav-link .menu-arrow,
+.side-nav-third-level li a .menu-arrow,
+.side-nav-third-level li .side-nav-link .menu-arrow,
+.side-nav-forth-level li a .menu-arrow,
+.side-nav-forth-level li .side-nav-link .menu-arrow {
+  line-height: 1.3rem;
+}
+
+.side-nav-second-level li.active>a,
+.side-nav-third-level li.active>a,
+.side-nav-forth-level li.active>a {
+  color: var(--ct-menu-item-active);
+}
+
+.side-nav-third-level li a,
+.side-nav-third-level li .side-nav-link {
+  padding: 8px 80px 8px 30px;
+}
+
+.side-nav-forth-level li a,
+.side-nav-forth-level li .side-nav-link {
+  padding: 8px 100px 8px 30px;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.side-nav-item {
+  size: 200px !important;
+}
+
+// .side-nav .side-nav-link span {
+//   vertical-align: middle;
+// }
+
+
+.leftside-menu {
+  width: 260px;
+  min-width: 260px;
+  z-index: 1000;
+  background: var(--ct-bg-leftbar-gradient);
+  bottom: 0;
+  position: fixed;
+  top: 0;
+  padding-top: 70px;
+  -webkit-box-shadow: var(--ct-box-shadow);
+          box-shadow: var(--ct-box-shadow);
+}

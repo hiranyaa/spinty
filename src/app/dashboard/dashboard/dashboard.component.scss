@@ -1,0 +1,21 @@
+.page-title-box .page-title {
+    font-size: 18px;
+    margin: 0;
+    line-height: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--ct-page-title-color);
+    margin-left:60px;
+  }
+  .page-title-box .page-title-right {
+    float: left;
+    margin-top: 20px;
+  }
+  .widget-flat {
+    position: relative;
+    overflow: hidden;
+    margin-left:60px;
+  }
+
+  
