@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { CommonComponentsModule } from './common-components/common-components.module';
 import { AdminLayoutModule } from './layouts/admin-layout/admin-layout.module';
-
-
+import { AddSprintFormComponent } from './sprints/add-sprint-form/add-sprint-form.component';
 @NgModule({
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+    AddSprintFormComponent,
     ],
   imports: [
     BrowserModule,
