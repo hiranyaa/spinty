@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { CommonComponentsModule } from './common-components/common-components.module';
 import { AdminLayoutModule } from './layouts/admin-layout/admin-layout.module';
-
-
 @NgModule({
   declarations: [
     AppComponent,

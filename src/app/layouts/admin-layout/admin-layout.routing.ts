@@ -2,12 +2,14 @@ import { Routes } from '@angular/router';
 import { AddCustomersFormComponent } from 'src/app/customers/add-customers-form/add-customers-form.component';
 import { CustomersComponent } from 'src/app/customers/customers.component';
 import { DashboardComponent } from 'src/app/dashboard/dashboard/dashboard.component';
+import { AddProjectFormComponent } from 'src/app/projects/add-project-form/add-project-form.component';
 import { ProjectsComponent } from 'src/app/projects/projects/projects.component';
 import { ReportsComponent } from 'src/app/reports/reports/reports.component';
 import { GroupsComponent } from 'src/app/settings/groups/groups.component';
 import { RolesComponent } from 'src/app/settings/roles/roles.component';
 import { SprintsComponent } from 'src/app/sprints/sprints/sprints.component';
 import { TimeCardsComponent } from 'src/app/time-cards/time-cards/time-cards.component';
+import { AddUserFormComponent } from 'src/app/users/add-user-form/add-user-form.component';
 import { UsersComponent } from 'src/app/users/users/users.component';
 
 export const AdminLayoutRoutes: Routes = [
@@ -21,4 +23,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'settings/roles', component: RolesComponent },
     { path: 'settings/groups', component: GroupsComponent },
     { path: 'add-customer-form', component: AddCustomersFormComponent },
+    { path: 'add-user-form', component: AddUserFormComponent },
+    { path: 'add-project-form', component: AddProjectFormComponent },
 ];
